@@ -30,6 +30,10 @@ function apply_properkorean()
                 break
             end
         end
+        
+        if G and G.collab_credits == nil then
+          G.collab_credits = {}
+        end
     end
 end
 
